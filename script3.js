@@ -23,11 +23,15 @@ var ageJohn, ageMark;
 now = 2020;
 ageJohn = now - 1996;
 ageMark = now - 1986;
-console.log(ageJohn);
-console.log(ageMark);
+console.log(ageJohn); // Output: 2020-1996 = 24
+console.log(ageMark); // Output/ 2020 -1986 = 34
 
 var oldJohn = ageJohn>ageMark;
 console.log(oldJohn);
+//output: false
 
 var oldMark = ageMark>ageJohn;
-console.log(oldMark);
+console.log(oldMark); 
+//output: true
+
+
